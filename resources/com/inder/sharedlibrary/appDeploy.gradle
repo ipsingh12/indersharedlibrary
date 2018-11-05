@@ -1,0 +1,17 @@
+
+buildscript {
+
+    repositories {
+
+        maven {
+            url "https://github.com/ipsingh12/TestJars"
+        }
+        mavenLocal()
+    }
+
+    dependencies {
+
+        classpath files('cobalt-gradle-plugin-1.0-SNAPSHOT.jar')
+    }
+}
+apply plugin: 'com.barclays.cobalt.build'
