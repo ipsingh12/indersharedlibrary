@@ -17,7 +17,7 @@ def call(body) {
             stage('Determine Version') {
                 steps {
                     script {
-                        TaskUtil.runGradle(this,"determineVersion","build")
+                        TaskUtil.runGradle(this,"determineVersion")
                     }
                 }
             }

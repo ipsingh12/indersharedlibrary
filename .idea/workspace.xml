@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb5ed19f-ac0a-49ca-b065-ada8e1519631" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vars/appDeploy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/appDeploy.groovy" afterDir="false" />
-    </list>
+    <list default="true" id="eb5ed19f-ac0a-49ca-b065-ada8e1519631" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/TaskUtil.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -84,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vars/appDeploy.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -132,9 +130,9 @@
         <option value="$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/taskutil.java" />
         <option value="$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/groovy.java" />
         <option value="$PROJECT_DIR$/resources/com/inder/sharedlibrary/test.gradle" />
-        <option value="$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/TaskUtil.groovy" />
         <option value="$PROJECT_DIR$/resources/com/inder/sharedlibrary/appDeploy.gradle" />
         <option value="$PROJECT_DIR$/vars/appDeploy.groovy" />
+        <option value="$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/TaskUtil.groovy" />
       </list>
     </option>
   </component>
@@ -222,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541423931942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541424310803" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,12 +250,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541063759209</updated>
-      <workItem from="1541063763398" duration="8933000" />
+      <workItem from="1541063763398" duration="9133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8933000" />
+    <option name="totallyTimeSpent" value="9133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
@@ -330,10 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/TaskUtil.groovy">
+    <entry file="file://$PROJECT_DIR$/vars/appDeploy.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -344,10 +342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vars/appDeploy.groovy">
+    <entry file="file://$PROJECT_DIR$/src/com/inder/demo/jenkins/sharedlibrary/TaskUtil.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
         </state>
       </provider>
     </entry>
