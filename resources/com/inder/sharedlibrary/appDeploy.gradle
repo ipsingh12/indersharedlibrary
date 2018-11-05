@@ -3,15 +3,15 @@ buildscript {
 
     repositories {
 
-        maven {
-            url "https://github.com/ipsingh12/gitjars"
-        }
+      //  maven {
+      //      url "https://github.com/ipsingh12/gitjars"
+     //   }
         mavenLocal()
     }
 
     dependencies {
 
-        classpath(group: 'com.inder.cobalt.gradle', name: 'cobalt-gradle-plugin', version: '1.0.0')
+        compile files('cobalt-gradle-plugin-1.0-SNAPSHOT.jar')
     }
 }
 apply plugin: 'com.inder.cobalt.build'
