@@ -14,4 +14,4 @@ buildscript {
         classpath files('cobalt-gradle-plugin-1.0-SNAPSHOT.jar')
     }
 }
-apply plugin: 'com.barclays.cobalt.build'
+apply plugin: 'com.inder.cobalt.build'
