@@ -1,3 +1,5 @@
+import com.inder.demo.jenkins.sharedlibrary.TaskUtil
+
 def call(body) {
     def pipelineParams = [:]
     body.resolveStrategy = Closure.DELEGATE_FIRST
@@ -15,7 +17,7 @@ def call(body) {
             stage('Determine Version') {
                 steps {
                     script {
-
+                        TaskUtil.runGradle(this,"determineVersion","build")
                     }
                 }
             }
