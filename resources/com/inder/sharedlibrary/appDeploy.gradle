@@ -11,7 +11,7 @@ buildscript {
 
     dependencies {
 
-        classpath(group: 'com.inder.cobalt.gralde', name: 'cobalt-gradle-plugin', version: '1.0.0')
+        classpath(group: 'com.inder.cobalt.gradle', name: 'cobalt-gradle-plugin', version: '1.0.0')
     }
 }
 apply plugin: 'com.inder.cobalt.build'
