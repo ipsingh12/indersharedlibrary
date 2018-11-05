@@ -17,7 +17,7 @@ public class TaskUtil implements  Serializable {
 
     private static String buildCobaltGradleFile(script)
     {
-        String taskContent= script.libraryResource("/com/inder/cobalt/jenkins/sharedlibrary/appDeploy.gradle")
+        String taskContent= script.libraryResource("/com/inder/sharedlibrary/appDeploy.gradle")
         script.writeFile(file: 'cobalt.gradle',text: taskContent)
     }
 }
