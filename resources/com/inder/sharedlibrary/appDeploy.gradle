@@ -11,7 +11,7 @@ buildscript {
 
     dependencies {
 
-        classpath files('cobalt-gradle-plugin-1.0-SNAPSHOT.jar')
+        classpath "cobalt-gradle-plugin-1.0-SNAPSHOT.jar"
     }
 }
 apply plugin: 'com.inder.cobalt.build'
