@@ -4,7 +4,7 @@ buildscript {
     repositories {
 
         maven {
-            url "https://github.com/ipsingh12/TestJars"
+            url "https://github.com/ipsingh12/gitjars"
         }
         mavenLocal()
     }
