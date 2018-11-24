@@ -1,17 +1,32 @@
 
+apply plugin: "com.inder.cobalt.build"
+
 buildscript {
 
     repositories {
 
-      //  maven {
-      //      url "https://github.com/ipsingh12/gitjars"
-     //   }
-        mavenLocal()
+
+        mavenCentral()
     }
+
 
     dependencies {
+        classpath group: 'com.github.ipsingh12', name: 'cobalt-gradle-plugin', version: '1.0.4'
 
-        compile files('cobalt-gradle-plugin-1.0-SNAPSHOT.jar')
+    }
+
+
+}
+
+
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.10.2' //version required
+}
+task distribution {
+    doLast {
+        println "We build the zip with version=$version"
     }
 }
-apply plugin: 'com.inder.cobalt.build'
+

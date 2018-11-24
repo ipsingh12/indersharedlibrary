@@ -11,7 +11,7 @@ public class TaskUtil implements  Serializable {
 
     static String buildCommand(taskName)
     {
-       return  "/opt/gradle/gradle-3.4.1/bin/gradle -b cobalt.gradle DetermineVersionTask"
+       return  "/opt/gradle/gradle-3.4.1/bin/gradle -b cobalt.gradle determineVersion"
 
     }
 
