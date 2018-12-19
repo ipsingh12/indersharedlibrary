@@ -31,15 +31,3 @@ buildscript {
 
 }
 
-
-
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.10.2' //version required
-}
-task distribution {
-    doLast {
-        println "We build the zip with version=$version"
-    }
-}
-
