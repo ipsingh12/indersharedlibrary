@@ -1,6 +1,19 @@
 
 apply plugin: "com.inder.cobalt.build"
 
+determineVersion {
+
+    // gitProperties =[
+
+    //     username : project.properties.get("gitUsername"),
+    //     password : project.properties.get("gitPassword"),
+    //     reponame : project.properties.get("gitReponame"),
+
+    //  ]
+    //username = project.properties.get("inder")
+    username="inder"
+}
+
 buildscript {
 
     repositories {
