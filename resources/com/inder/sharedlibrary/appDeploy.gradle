@@ -11,7 +11,7 @@ buildscript {
 
 
     dependencies {
-        classpath group: 'com.github.ipsingh12', name: 'cobalt-gradle-plugin', version: '1.0.4'
+        classpath group: 'com.github.ipsingh12', name: 'cobalt-gradle-plugin', version: '1.0.5'
 
     }
 
