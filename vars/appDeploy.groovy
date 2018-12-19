@@ -7,7 +7,7 @@ def call(body) {
     body()
     pipeline {
         environment {
-            ORG_GRADLE_PROJECT_inder=pipelineParams.inder
+            ORG_GRADLE_PROJECT_inder= "${pipelineParams.inder}"
         }
         agent any
         stages {
