@@ -10,8 +10,8 @@ determineVersion {
     //     reponame : project.properties.get("gitReponame"),
 
     //  ]
-    //username = project.properties.get("inder")
-    username="inder"
+    username = project.properties.get("inder")
+   // username="inder"
 }
 
 buildscript {
