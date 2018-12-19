@@ -6,6 +6,9 @@ def call(body) {
     body.delegate = pipelineParams
     body()
     pipeline {
+        environment {
+            ORG_GRADLE_PROJECT_inder=pipelineParams.inder
+        }
         agent any
         stages {
             stage('Checkout') {
